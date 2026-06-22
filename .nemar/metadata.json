@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG, pupillometry, ECG and photoplethysmography, and behavioral data in the digit span task and rest",
+  "description": "This dataset comprises multimodal physiological recordings from 86 participants during resting state and a digit span working memory task. It includes 64-channel EEG, electrocardiography, photoplethysmography, pupillometry, and behavioral performance data. The dataset enables investigation of neural and peripheral physiological correlates of cognitive load, working memory capacity, and cognitive overload detection across fine temporal scales.",
+  "methods_description": "Data were collected during two conditions: 4 minutes of eyes-closed resting and performance of a digit span task with serial recall. In the task, participants either memorized or listened to (control) sequences of 5, 9, or 13 digits presented auditorily with 2-second stimulus onset asynchrony. Physiological signals included 64-channel EEG, ECG, PPG, and pupillometry with eye-tracking.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,12 +20,30 @@
       "orcid": "0000-0001-7007-824X"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003838.v1.0.6",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "cognitive load"
+    },
+    {
+      "term": "pupillometry"
+    },
+    {
+      "term": "electrocardiography"
+    },
+    {
+      "term": "photoplethysmography"
+    },
+    {
+      "term": "digit span task"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1038/s41597-022-01414-2",
       "identifier_type": "DOI",
@@ -48,15 +68,20 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003838",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003838.v1.0.6",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "eeg"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "271.9 GB (413 files)"
   ],
   "formats": [
     ".jpg",
@@ -70,34 +95,8 @@
     ".tsv",
     ".txt",
     ".wav",
-    ".xlsx"
+    ".xlsx",
+    ".yml"
   ],
-  "description": "This dataset comprises multimodal physiological recordings from 86 participants during resting state and a digit span working memory task. It includes 64-channel EEG, electrocardiography, photoplethysmography, pupillometry, and behavioral performance data collected during auditory presentation of digit sequences at varying cognitive loads (5, 9, or 13 digits). The dataset enables investigation of neural and peripheral physiological correlates of working memory encoding, maintenance, and cognitive load discrimination.",
-  "methods_description": "Data were collected from 86 human participants during 4 minutes of eyes-closed resting state and during a digit span task with serial recall. Participants either memorized or listened to (control condition) sequences of 5, 9, or 13 digits presented auditorily with 2-second stimulus onset asynchrony. Recordings included 64-channel EEG, electrocardiography, photoplethysmography, and pupillometry with eye-tracking.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "working memory"
-    },
-    {
-      "term": "cognitive load"
-    },
-    {
-      "term": "pupillometry"
-    },
-    {
-      "term": "Electrocardiography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
-    },
-    {
-      "term": "photoplethysmography"
-    },
-    {
-      "term": "digit span task"
-    }
-  ],
-  "source_hash": "5cd5f101fcb516883ea40eaaeb46e6499c506c1dd969a1ed17387db971d55728"
+  "source_hash": "3c925aa06a89dda974bbc2bc5ff76d14c281f33243db2a8b5a24cf92f5fb39b2"
 }
