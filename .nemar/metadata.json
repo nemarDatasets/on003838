@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "dataset_id": "on003838",
+  "source": "openneuro",
+  "source_id": "ds003838",
+  "title": "EEG, pupillometry, ECG and photoplethysmography, and behavioral data in the digit span task and rest",
+  "authors": {
+    "Yuri G. Pavlov": {},
+    "Dauren Kasanov": {},
+    "Alexandra I. Kosachenko": {},
+    "Alexander I. Kotyusov": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003838.v1.0.6",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.1.1",
+  "recording_modality": [
+    "beh",
+    "eeg"
+  ],
+  "datatypes": [
+    "beh",
+    "eeg"
+  ]
+}
