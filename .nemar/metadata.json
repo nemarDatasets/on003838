@@ -1,32 +1,103 @@
 {
   "version": "2.0",
-  "dataset_id": "on003838",
-  "source": "openneuro",
-  "source_id": "ds003838",
+  "pipeline_stage": "validated",
   "title": "EEG, pupillometry, ECG and photoplethysmography, and behavioral data in the digit span task and rest",
-  "authors": {
-    "Yuri G. Pavlov": {},
-    "Dauren Kasanov": {},
-    "Alexandra I. Kosachenko": {},
-    "Alexander I. Kotyusov": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Yuri G. Pavlov": {
+      "orcid": "0000-0002-3896-5145"
+    },
+    "Dauren Kasanov": {
+      "orcid": "0000-0001-9726-2004"
+    },
+    "Alexandra I. Kosachenko": {
+      "orcid": "0000-0001-8896-3837"
+    },
+    "Alexander I. Kotyusov": {
+      "orcid": "0000-0001-7007-824X"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003838.v1.0.6",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1038/s41597-022-01414-2",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41598-023-48917-5",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1111/psyp.14275",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003838",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003838",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "beh",
     "eeg"
   ],
-  "datatypes": [
-    "beh",
-    "eeg"
-  ]
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".jpg",
+    ".json",
+    ".md",
+    ".png",
+    ".psyexp",
+    ".py",
+    ".set",
+    ".sh",
+    ".tsv",
+    ".txt",
+    ".wav",
+    ".xlsx"
+  ],
+  "description": "This dataset comprises multimodal physiological recordings from 86 participants during resting state and a digit span working memory task. It includes 64-channel EEG, electrocardiography, photoplethysmography, pupillometry, and behavioral performance data collected during auditory presentation of digit sequences at varying cognitive loads (5, 9, or 13 digits). The dataset enables investigation of neural and peripheral physiological correlates of working memory encoding, maintenance, and cognitive load discrimination.",
+  "methods_description": "Data were collected from 86 human participants during 4 minutes of eyes-closed resting state and during a digit span task with serial recall. Participants either memorized or listened to (control condition) sequences of 5, 9, or 13 digits presented auditorily with 2-second stimulus onset asynchrony. Recordings included 64-channel EEG, electrocardiography, photoplethysmography, and pupillometry with eye-tracking.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "cognitive load"
+    },
+    {
+      "term": "pupillometry"
+    },
+    {
+      "term": "Electrocardiography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
+    },
+    {
+      "term": "photoplethysmography"
+    },
+    {
+      "term": "digit span task"
+    }
+  ],
+  "source_hash": "5cd5f101fcb516883ea40eaaeb46e6499c506c1dd969a1ed17387db971d55728"
 }
