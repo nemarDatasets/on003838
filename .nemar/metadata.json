@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG, pupillometry, ECG and photoplethysmography, and behavioral data in the digit span task and rest",
-  "description": "This dataset comprises multimodal physiological recordings from 86 participants during resting state and a digit span working memory task. It includes 64-channel EEG, electrocardiography, photoplethysmography, pupillometry, and behavioral performance data. The dataset enables investigation of neural and peripheral physiological correlates of cognitive load, working memory capacity, and cognitive overload detection across fine temporal scales.",
-  "methods_description": "Data were collected during two conditions: 4 minutes of eyes-closed resting and performance of a digit span task with serial recall. In the task, participants either memorized or listened to (control) sequences of 5, 9, or 13 digits presented auditorily with 2-second stimulus onset asynchrony. Physiological signals included 64-channel EEG, ECG, PPG, and pupillometry with eye-tracking.",
+  "description": "Raw 64-channel EEG, electrocardiography, photoplethysmography, pupillometry and behavioral data from 86 participants during 4 minutes of eyes-closed rest and a digit span serial recall task. Participants memorized or passively listened to auditory digit sequences of 5, 9, or 13 items. The dataset supports work on cognitive load discrimination, event-related and oscillatory dynamics during encoding and maintenance, and links between working memory, central and peripheral physiology.",
+  "methods_description": "Participants either memorized or listened to (control) auditorily presented sequences of 5, 9, or 13 digits with 2 s stimulus onset asynchrony, followed by serial recall. A 4-minute eyes-closed resting recording was also collected. Data include 64-channel EEG, ECG, PPG, pupillometry/eye tracking, and recall correctness.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -25,29 +25,33 @@
       "term": "EEG"
     },
     {
-      "term": "working memory"
-    },
-    {
-      "term": "cognitive load"
-    },
-    {
       "term": "pupillometry"
-    },
-    {
-      "term": "electrocardiography"
     },
     {
       "term": "photoplethysmography"
     },
     {
+      "term": "Electrocardiography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
+    },
+    {
+      "term": "Memory, Short-Term",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008570"
+    },
+    {
       "term": "digit span task"
+    },
+    {
+      "term": "cognitive load"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1038/s41597-022-01414-2",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "10.1038/s41598-023-48917-5",
@@ -65,14 +69,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003838",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds003838.v1.0.6",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003838",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "Neuroimaging Dataset",
@@ -81,7 +85,7 @@
     "eeg"
   ],
   "sizes": [
-    "271.9 GB (413 files)"
+    "253 GB (413 files)"
   ],
   "formats": [
     ".jpg",
